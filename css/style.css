@@ -1,0 +1,228 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #252e39;
+}
+
+.container{
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.services__top{
+	background-color: #eb5346;
+	position: relative;
+	
+}
+
+.services__top img{
+	padding:25px 15px 15px 320px;
+}
+
+.services__top span{
+	color: #fff;
+	font-weight: 700;
+	font-size: 28px;
+	display: inline-block;
+	position: absolute;
+	top: 35px;
+}
+
+.classes__tabs{
+	padding-bottom: 120px;
+}
+
+.car-classes{
+	padding-top: 87px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.classes-item{
+	position: relative;
+}
+
+.item-citroen:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 20px solid #eb5346;
+	position: absolute;
+	top: 7px;
+	left: 15%;
+}
+
+.item-mazda:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 20px solid #eb5346;
+	position: absolute;
+	top: 7px;
+	left: 49%;
+}
+
+.item-mercedes:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 20px solid #eb5346;
+	position: absolute;
+	top: 7px;
+	left: 82%;
+}
+
+.classes__title{
+	background-color: #252e39;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+.title-mini{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.car__img{
+	padding: 100px 0 76px;
+}
+
+.classes__text{
+	background-color: #eb5346;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+	display: inline-block;
+	padding: 8px 30px;
+}
+
+.about-services{
+	display: flex;
+	justify-content: space-around;
+}
+
+.car-serv img{
+	padding: 93px 0 112px;
+}
+
+.price__inner{
+	display: inline-block;
+	padding-right: 51px;
+}
+
+.price-title{
+	font-size: 22px;
+	color: #eb5346;
+	padding-bottom: 5px;
+}
+
+.price-text{
+	color: #252e39;
+	font-size: 16px;
+	border-top: 1px solid #252e39;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.price-text span{
+	font-size: 18px;
+	font-weight: 700;
+	color: #eb5346;
+	padding-left: 45px;
+}
+
+.btn{
+	background-color: #252e39;
+	display: inline-block;
+	padding: 12px 40px;
+}
+
+.btn a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.services-change{
+	padding-top: 50px;
+	text-transform: uppercase;
+	
+}
+
+.repair-types{
+	border-left: 1px solid #252e39;
+}
+
+.repair-types,
+.parts{
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.repair-types li{
+	padding: 8px 25px 8px 15px;
+}
+
+.parts li{
+	font-size: 14px;
+	padding-left: 20px;
+	/*display: none;*/
+}
+
+.repair-types li:hover{
+	background-color: #eb5346;
+	color: #fff;
+}
+
+.repair-types span{
+	padding-top: 23px;
+	display: inline-block;
+	padding: 8px 95px 8px 15px;
+}
+
+.repair-types span:hover{
+	background-color: #252e39;
+	color: #fff;
+}
+
+.classes__tabs .classes-item{
+	display: none;
+}
+
+.classes__tabs .classes-item:first-child{
+    display: block;
+}
+
+.services__lower{
+	background-color: #252e39;
+	height: 100px;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.car-classes{
+		flex-wrap: wrap;
+	}
+}
